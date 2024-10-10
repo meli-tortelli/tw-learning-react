@@ -1,12 +1,12 @@
-import { TextInput } from "./components/TextInput"
+import { Index } from "./components/pages/index"
 import styles from './App.module.css'
 
 function App() {
   return (
     <main className={styles.appContainer}>
-      <TextInput placeholder={'O que está acontecendo?'} maxLength={140} />
+      <Index />
     </main>
   )
 }
 
-export default App
+export default App;
